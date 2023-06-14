@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tacoma Coffee Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero-image {
+      background-image: url('coffee_shop_image.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-heading h2 {
+      color: #333;
+      font-size: 28px;
+    }
+
+    .section-content {
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tacoma Coffee Shop</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero-image"></div>
+  <div class="container">
+    <section>
+      <div class="section-heading">
+        <h2>Welcome to Our Coffee Shop</h2>
+      </div>
+      <div class="section-content">
+        <p>Discover the finest selection of coffee in Tacoma, WA. We take pride in sourcing and roasting the highest quality beans to bring you a delightful coffee experience.</p>
+        <p>Visit us to enjoy our cozy ambiance, friendly service, and a wide range of coffee beverages to suit every taste. Whether you prefer a classic espresso or a specialty latte, we have something for everyone.</p>
+      </div>
+    </section>
+    <section>
+      <div class="section-heading">
+        <h2>Our Menu</h2>
+      </div>
+      <div class="section-content">
+        <p>Explore our menu and indulge in our delicious coffee creations:</p>
+        <ul>
+          <li>Espresso</li>
+          <li>Cappuccino</li>
+          <li>Latte</li>
+          <li>Mocha</li>
+          <li>Americano</li>
+          <li>Cold Brew</li>
+       
